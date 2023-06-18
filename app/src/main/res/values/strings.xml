@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">Stardew Valley</string>
+    <string name="text_tela_inicial">Stardew Valley</string>
+    <string name="text_categoria1">Personagens</string>
+    <string name="text_categoria2">Animais</string>
+    <string name="text_categoria3">Locais</string>
+    <string name="text_categoria4">Estações</string>
+    <string name="text_categoria5">Eventos</string>
+    <string name="botao_musica">Músicas</string>
+    <string name="text_titulo1">Personagens</string>
+    <string name="text_grupo1">1º grupo</string>
+    <string name="text_grupo2">2º grupo</string>
+    <string name="text_grupo3">3º grupo</string>
+    <string name="botao_voltar1">Voltar</string>
+    <string name="botao_web1">Mais informações</string>
+    <string name="text_titulo2">Animais</string>
+    <string name="text_voltar2">Voltar</string>
+    <string name="text_web">Mais informações</string>
+    <string name="botao_voltar2">Voltar</string>
+    <string name="botao_web2">Mais informações</string>
+    <string name="text_titulo3">Locais</string>
+    <string name="text_voltar3">Voltar</string>
+    <string name="text_web3">Mais informações</string>
+    <string name="botao_voltar3">Voltar</string>
+    <string name="botao_web3">Mais informações</string>
+    <string name="text_titulo4">Estações</string>
+    <string name="text_voltar4">Voltar</string>
+    <string name="text_web4">Mais informações</string>
+    <string name="botao_voltar4">Voltar</string>
+    <string name="botao_web4">Mais informações</string>
+    <string name="text_titulo5">Eventos</string>
+    <string name="text_voltar5">Voltar</string>
+    <string name="text_web5">Mais informações</string>
+    <string name="botao_voltar5">Voltar</string>
+    <string name="botao_web5">Mais informações</string>
+
+
+
+
 </resources>

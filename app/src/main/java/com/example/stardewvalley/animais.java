@@ -27,7 +27,7 @@ public class animais extends AppCompatActivity {
             }
         });
     }
-    public void Animais(View view) {
+    public void MainActivity(View view) {
         Intent in = new Intent(animais.this, MainActivity.class);
         startActivity(in);
     }

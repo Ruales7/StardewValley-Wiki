@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".estacoes">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/estacoes"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="160dp"
+        android:layout_height="14dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="104dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/press_start_2p"
+        android:text="detalhes"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F8BC08"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="119dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="96dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/press_start_2p"
+        android:text="voltar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F8BC08"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_site4"
+        android:layout_width="157dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="123dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="MainActivity"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="196dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="52dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/press_start_2p"
+        android:text="ESTACOES"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F8BC08"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="33dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="~"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="16sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="34dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="639dp"
+        android:fontFamily="@font/press_start_2p"
+        android:rotation="-90"
+        android:text="~"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:layout_editor_absoluteX="203dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

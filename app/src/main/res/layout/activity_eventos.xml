@@ -4,61 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".animais">
+    tools:context=".eventos">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/animais"
-        tools:ignore="MissingConstraints"
+        app:srcCompat="@drawable/eventos"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="176dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="52dp"
-        android:elegantTextHeight="true"
-        android:fontFamily="@font/press_start_2p"
-        android:text="ANIMAIS"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#F8BC08"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="140dp"
-        android:layout_height="27dp"
-        android:layout_marginBottom="88dp"
-        android:elegantTextHeight="true"
-        android:fontFamily="@font/press_start_2p"
-        android:text="detalhes"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#F8BC08"
-        android:textSize="8sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="125dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginBottom="92dp"
+        android:id="@+id/textView15"
+        android:layout_width="121dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="68dp"
         android:elegantTextHeight="true"
         android:fontFamily="@font/press_start_2p"
         android:text="voltar"
@@ -71,31 +33,71 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="64dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/press_start_2p"
+        android:text="detalhes"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F8BC08"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="176dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="52dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/press_start_2p"
+        android:text="EVENTOS"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F8BC08"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
     <Button
-        android:id="@+id/button"
-        android:layout_width="129dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="56dp"
+        android:id="@+id/button_site5"
+        android:layout_width="145dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="99dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="36dp"
         android:backgroundTint="#00FFFFFF"
         android:onClick="MainActivity"
         android:text="Button"
         android:textColor="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button_site2"
-        android:layout_width="157dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="52dp"
-        android:backgroundTint="#00FFFFFF"
-        android:text="Button"
-        android:textColor="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.447"
-        app:layout_constraintStart_toEndOf="@+id/button"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
